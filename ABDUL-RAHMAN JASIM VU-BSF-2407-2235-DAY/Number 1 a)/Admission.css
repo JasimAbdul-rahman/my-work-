@@ -1,0 +1,90 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(214, 211, 211);
+  color: rgb(45, 45, 45);
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  background-color: rgb(1, 1, 126);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+nav {
+  background-color: rgb(1, 1, 140);
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+form input, form select, form textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 15px 0;
+  box-sizing: border-box;
+}
+
+form input[type="submit"] {
+  background-color: rgb(0, 89, 124);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+form input[type="submit"]:hover {
+  background-color: rgb(1, 1, 136);
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table, th, td {
+  border: 1px solid rgb(190, 190, 190);
+}
+
+th {
+  background-color: rgb(1, 1, 129);
+  color: white;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+}
+
