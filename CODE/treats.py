@@ -1,0 +1,10 @@
+coursework= float(input("coursework:\n"))
+atendence= float (input("attendence:\n")) 
+exam= float(input("exam:\n"))
+coursework = ((coursework/100)*30)
+atendence = ((atendence/100)*5)
+exam= ((exam/100)*65)
+print(f"the total marks of the student in coursework is:\n",coursework)
+print(f"the total marks of the student in attendence is:\n",atendence)
+print(f"the total marks of the student in final exam is:\n",exam)
+print(round(coursework + exam + atendence,2)) # for decimal places number
